@@ -8,9 +8,3 @@ management:
 spring:
   jpa:
     generate-ddl: true
-
-#  cloud:
-#    config:
-#      uri: "http://helix.config.server/:8888"
-#      token: "MyTokenGoesHere"
-#      name: "MyApplicationName"

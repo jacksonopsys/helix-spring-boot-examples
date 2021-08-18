@@ -6,6 +6,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-@Repository
+// @Repository
 public interface PostcodeCRUDReporitory extends CrudRepository<PostcodeData,Long> {
 }
