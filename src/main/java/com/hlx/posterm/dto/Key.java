@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ValidationStatus {
-    String status;
-    String message;
+public class Key {
+    private Integer publicPart;
+    private Long privatePart;
 }

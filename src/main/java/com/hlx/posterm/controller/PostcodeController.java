@@ -13,7 +13,8 @@ public class PostcodeController {
 
     private PostCodeValidationService svc;
 
-    public PostcodeController(@Autowired PostCodeValidationService svcIn) {
+    @Autowired
+    public PostcodeController(PostCodeValidationService svcIn) {
         svc = svcIn;
     }
 
